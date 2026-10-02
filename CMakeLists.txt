@@ -49,7 +49,7 @@ add_executable(picocalc-cpu-emulator
 pico_set_program_name(picocalc-cpu-emulator "picocalc-cpu-emulator")
 pico_set_program_version(picocalc-cpu-emulator "0.1")
 
-# audio.c needs its PIO program's generated header (audio.pio.h) -- see
+# audio.c needs its PIO program's generated header (audio.pio.h); see
 # picocalc-text-starter-main/CMakeLists.txt, which does the same thing.
 pico_generate_pio_header(picocalc-cpu-emulator ${STARTER}/drivers/audio.pio)
 
