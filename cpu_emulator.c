@@ -48,8 +48,7 @@
  *
  *  Any key that does not apply right now is rejected with a short beep
  *  and otherwise ignored. ~ (SHIFT + backtick) always reboots into
- *  BOOTSEL mode, the same as every other PicoCalc program in this set of
- *  projects. Q asks "EXIT AND LOSE MEMORY? Y/N" (the memory only lives in
+ *  BOOTSEL mode. Q asks "EXIT AND LOSE MEMORY? Y/N" (the memory only lives in
  *  RAM) and, on Y, leaves for the PicoCalc UF2 Loader menu.
  */
 
