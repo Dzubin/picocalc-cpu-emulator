@@ -91,7 +91,7 @@ assembler, or disassembler yet.
 - ESC, in DATA mode, drops back to ADDRESS mode immediately, discarding
   any half-typed digit rather than requiring a completed byte first
   (unlike ENTER's version of the same switch).
-- RP2350 build setup, matching the other projects in this set.
+- RP2350 build setup.
 
 ### Not implemented yet
 - No CPU/microprocessor definition of any kind — nothing executes.
